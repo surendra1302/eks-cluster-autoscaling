@@ -10,6 +10,11 @@
         "autoscaling:DescribeTags",
         "autoscaling:SetDesiredCapacity",
         "autoscaling:TerminateInstanceInAutoScalingGroup",
+        "ec2:DescribeSecurityGroups",
+        "ec2:DescribeInstances",
+        "ec2:DescribeInstanceTypes",
+        "ec2:DescribeRegions",
+        "ec2:DescribeAvailabilityZones",
         "ec2:DescribeLaunchTemplateVersions"
       ],
       "Resource": "*"
